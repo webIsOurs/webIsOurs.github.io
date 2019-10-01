@@ -29,8 +29,20 @@
     <!-- FOOTER  -->
     <div id="footer_wrap" class="outer">
       <footer class="inner">
-        <p>Impressum:</p>
-        <img src="img/impressum.png" alt="Impressum" />
+      	<button onclick="showImprint()">Impressum</button>
+      	<script>
+		function showImprint() {
+		   var x = document.getElementById('imprint');
+			if (x.style.display === 'none') {
+				x.style.display = 'block';
+			} else {
+				x.style.display = 'none';
+			}
+		}
+		</script>
+        <div id="imprint"<
+          <img src="img/impressum.png" alt="Impressum"/>
+      	</div>
       </footer>
     </div>
   </body>
