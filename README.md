@@ -1,8 +1,7 @@
-# #webIsOurs - Holen wir uns das Web zurück!
-## Ein Manifest zur Selbstermächtigung der Internet-Nutzer*innen
+# Ein Manifest zur Selbstermächtigung der Internet-Nutzer*innen
 
 
-### Das Internet im Jahre 2019
+## Das Internet im Jahre 2019
 
 
 Das Internet ist für viele Menschen eine virtuelle Heimat geworden. Sie pflegen dort Freundschaften und Kontak­te, sie suchen und geben Rat, diskutieren über Kunst, Kultur und Persönliches, teilen Fotos, arbeiten zusammen, kaufen ein, spielen, verabreden sich. Kurz: Sie kommunizieren.
@@ -14,7 +13,7 @@ Das angesammelte Wissen der Plattformbetreiber ist Macht, verliehen von den Nutz
 Auch für verantwortungsvolle Betreiber gilt: Vorstände können wechseln, Firmen aufgekauft, Richtlinien und ge­setzliche Rahmenbedingungen geändert werden. Darum sind zentralisierte Plattformen grundsätzlich nicht ver­trauenswürdig. Zuverlässig vertrauen kann man nur auf technisch sichergestellten Datenschutz.
 
 
-### Die Vision: Das Internet der Zukunft
+## Die Vision: Das Internet der Zukunft
 
 
 Das Internet ist heute schon dezentral und kooperativ angelegt, resistent gegen Zentralismus, Zwang und Zensur. Jede* r kann dort eine eigene Web-Präsenz gestalten und frei und selbstbestimmt Herr über seine Daten sein.
@@ -22,7 +21,7 @@ Das Internet ist heute schon dezentral und kooperativ angelegt, resistent gegen 
 Das freiheitliche, demokratische Internet der Zukunft verfügt aber zusätzlich über alltagstaugliche Technologie, die Vertraulichkeit der Kommunikation im Sinne von Privacy by Design ganz selbstverständlich technisch reali­siert. Denn die Internetnutzer* innen der Zukunft sind sich des Wertes persönlicher Daten bewusst und gehen sorg­fältig damit um. Dadurch schützen sie sich selbst und ihre Mitmenschen vor aktuellen und zukünftigen Gefahren. Denn sie wissen, dass Daten, die heute harmlos erscheinen, morgen hoch problematisch sein können.
 
 
-### Manifest
+## Manifest
 
 
 Wir, die Unterzeichner* innen dieses Manifests, sind der festen Überzeugung, dass das Internet durch die Nutzer* innen in Besitz genommen werden kann und muss.
