@@ -1,6 +1,4 @@
 theme: jekyll-theme-slate
 title: "#webIsOurs - Holen wir uns das Web zurück!"
 show_downloads: false
-site:
-        github:
-                is_project_page: false
+is_project_page: false
