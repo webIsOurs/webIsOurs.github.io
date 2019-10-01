@@ -30,7 +30,10 @@
     <div id="footer_wrap" class="outer">
       <footer class="inner">
       	<button onclick="showImprint()">Impressum</button>
-      	<script>
+      	<div id="imprint">
+          <img src="img/impressum.png" alt="Impressum"/>
+      	</div>
+        <script>
 		function showImprint() {
 		   var x = document.getElementById('imprint');
 			if (x.style.display === 'none') {
@@ -40,9 +43,6 @@
 			}
 		}
 		</script>
-        <div id="imprint"<
-          <img src="img/impressum.png" alt="Impressum"/>
-      	</div>
       </footer>
     </div>
   </body>
