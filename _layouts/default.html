@@ -29,24 +29,19 @@
     <!-- FOOTER  -->
     <div id="footer_wrap" class="outer">
       <footer class="inner">
-      	<div id="imprint_button" style="display:block">
-          <button onclick="showImprint()">Impressum</button>
-      	</div>
+      	<button onclick="showImprint()">Impressum</button>
       	<div id="imprint" style="display:none">
-      	  <button onclick="hideImprint()">
-      	    <p>Impressum:</p>
-            <img src="img/impressum.png" alt="Impressum"/>
-          </button>
+          <img src="img/impressum.png" alt="Impressum"/>
       	</div>
         <script>
-		function showImprint() {
-		  document.getElementById('imprint').style.display = 'block';
-		  document.getElementById('imprint_button').style.display = 'none';
-		}
-		function hideImprint() {
-		  document.getElementById('imprint').style.display = 'none';
-		  document.getElementById('imprint_button').style.display = 'block';
-		}
+        function showImprint() {
+		  var x = document.getElementById('imprint');
+          if (x.style.display === 'none') {
+            x.style.display = 'block';
+          } else {
+            x.style.display = 'none';
+          }
+        }
 		</script>
       </footer>
     </div>
