@@ -1,0 +1,78 @@
+---
+---
+<!DOCTYPE html>
+<html> 
+  <head> 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,maximum-scale=2">
+    <link rel="stylesheet" type="text/css" media="screen" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+    <script>
+      function getLanguage() {
+        var userLang = (navigator.language || navigator.userLanguage).substring(0, 2).toLowerCase();
+        if (userLang != "de") userLang = "en";
+        return userLang
+      }
+      
+      function translate(language, item, file) {
+        $("#" + item).load(
+          language + "/" + file,
+          function( response, status, xhr ) { if ( status == "error" ) { $("#" + item).load("en/" + file); }
+        });
+      }
+      
+      function toggleVisibility(item) {
+        var x = document.getElementById(item);
+        if (x.style.display === 'none') {
+          x.style.display = 'block';
+        } else {
+          x.style.display = 'none';
+        }
+      }
+      
+      function scrollToBottom() {
+        $('html, body').scrollTop($(document).height() - $(window).height());
+      }
+      
+      function translateAll(language) {
+        translate(language, "div_content", "manifest.html");
+        translate(language, "imprint", "imprint.html");
+      }
+      
+      $(document).ready(function() { translateAll(getLanguage()); });
+    </script>
+
+{% seo %}
+  </head> 
+  
+  <body>
+    <!-- LANGUAGE SELECTOR -->
+    <div align="right" class="outer">
+      <button onclick="translateAll('de')" style="padding:2;border:none;background:none;">🇩🇪</button>
+      <button onclick="translateAll('en')" style="padding:2;border:none;background:none;">🇬🇧</button>
+    </div>
+
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="inner" style="padding:0">
+          <h1 id="project_title">{{ site.title }}</h1>
+        </header>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
+        <div id="div_content"/>
+      </section>
+    </div>
+
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+        <div id="imprint"/>
+      </footer>
+    </div>
+
+  </body>
+</html>

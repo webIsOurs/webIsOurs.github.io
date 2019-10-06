@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="{{ site.lang | default: "en-US" }}">
+<html>
 
   <head>
     <meta charset='utf-8'>
@@ -14,7 +14,7 @@
 
     <!-- HEADER -->
     <div id="header_wrap" class="outer">
-        <header class="inner">
+        <header class="inner" style="padding:0">
           <h1 id="project_title">{{ site.title | default: site.github.repository_name }}</h1>
         </header>
     </div>
@@ -22,27 +22,27 @@
     <!-- MAIN CONTENT -->
     <div id="main_content_wrap" class="outer">
       <section id="main_content" class="inner">
-        {{ content }}
+          {{ content }}
       </section>
     </div>
 
     <!-- FOOTER  -->
     <div id="footer_wrap" class="outer">
       <footer class="inner">
-      	<button onclick="showImprint()">Impressum</button>
-      	<div id="imprint" style="display:none">
+        <button onclick="showImprint()">Impressum</button>
+        <div id="imprint" style="display:none">
           <img src="img/impressum.png" alt="Impressum"/>
-      	</div>
+        </div>
         <script>
         function showImprint() {
-		  var x = document.getElementById('imprint');
+          var x = document.getElementById('imprint');
           if (x.style.display === 'none') {
             x.style.display = 'block';
           } else {
             x.style.display = 'none';
           }
         }
-		</script>
+        </script>
       </footer>
     </div>
   </body>
