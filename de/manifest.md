@@ -9,7 +9,7 @@ layout: "empty"
 
 Das Internet ist für viele Menschen eine virtuelle Heimat geworden. Sie pflegen dort Freundschaften und Kontakte, sie suchen und geben Rat, diskutieren über Kunst, Kultur und Persönliches, teilen Fotos, arbeiten zusammen, kaufen ein, spielen, verabreden sich. Kurz: Sie kommunizieren.
 
-Allerdings ziehen wenige attraktive, kommerzielle Plattformen immer mehr Nutzer\*innen an. Sie erhalten damit eine Monopolstellung und bedenkliche Macht, indem sie persönlichste Daten ansammeln und gewinnbringend nutzen. Das ist ihr Geschäft. Die Nutzer\*innen stehen indes vor der Wahl, entweder den Betreibern ihre Daten an­zuvertrauen, oder von den Plattformen und damit von einem signifikanten Teil ihres sozialen Umfeldes ausge­schlossen zu werden.
+Allerdings ziehen wenige attraktive, kommerzielle Plattformen immer mehr Nutzer\* innen an. Sie erhalten damit eine Monopolstellung und bedenkliche Macht, indem sie persönlichste Daten ansammeln und gewinnbringend nutzen. Das ist ihr Geschäft. Die Nutzer\* innen stehen indes vor der Wahl, entweder den Betreibern ihre Daten an­zuvertrauen, oder von den Plattformen und damit von einem signifikanten Teil ihres sozialen Umfeldes ausge­schlossen zu werden.
 
 Das angesammelte Wissen der Plattformbetreiber ist Macht, verliehen von den Nutzer\*innen. Dieses Wissen er­möglicht den Betreibern, weit über das Internet hinaus Menschen zielgerichtet zu manipulieren, sei es um sie zum Kauf von Produkten zu bewegen oder um ihr Verhalten im politischen Raum zu beeinflussen. Dieses Machtinstru­ment steht neben den Betreibern selbst jedem zur Verfügung, der dafür zahlt, oder, wie staatliche Stellen, Druck auf die Betreiber ausüben kann.
 
