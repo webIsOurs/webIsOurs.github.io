@@ -2,4 +2,4 @@
 Initiators:
 
    * Kai Bösefeldt (software developer)
-   * Prof. Dr. Andrea Herrmann (TU Dortmund, Member of the Executive Committee of the german Gesellschaft für Informatik (GI))
+   * Dr. Andrea Herrmann (TU Dortmund, member of the executive committee of the german Gesellschaft für Informatik (GI))
