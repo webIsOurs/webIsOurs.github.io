@@ -1,4 +1,5 @@
 ---
+layout: "empty"
 ---
 # Holen wir uns das Web zurück!
 
