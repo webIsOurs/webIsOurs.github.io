@@ -1,5 +1,5 @@
 ---
 Initiators:
 
-   * Kai Bösefeldt (software developer)
+   * Kai Bösefeldt (Software Developer)
    * Dr. Andrea Herrmann (Assistant Professor at the FH Dortmund, Herrmann & Ehrlich)
