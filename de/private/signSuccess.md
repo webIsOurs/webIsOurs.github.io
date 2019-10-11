@@ -1,8 +1,9 @@
 ---
+layout: "empty"
 ---
 ##### Fast unterschrieben!
 
-Es wurde für Sie ein Fenster mit einer neue E-Mail mit Ihrer Unterschrift geöffnet. Sie können diese E-Mail direkt absenden um Ihre Unterschrift abzuschließen. Sie können auch einen Kommentar dazu schreiben, wenn Sie möchten.
+Es wurde für Sie ein Fenster mit einer neuen E-Mail mit Ihrer Unterschrift geöffnet. Sie können diese E-Mail direkt absenden um Ihre Unterschrift abzuschließen. Sie können auch einen Kommentar dazu schreiben, wenn Sie möchten.
 
 Sollte es beim Öffnen des E-Mail-Fensters technische Probleme geben, so können Sie auch direkt mailen an: signWebIsOurs (at) gmx.de.
 
