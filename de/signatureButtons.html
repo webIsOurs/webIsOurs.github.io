@@ -1,6 +1,19 @@
+<script>
+  function toggleSignSectionVisibility() {
+    var div_sign = document.getElementById("div_sign")
+    if (div_sign.childNodes.length == 0)
+    {
+      load('div_sign', 'de/private/sign.html', 'de/private/sign.html');
+    }
+    else
+    {
+      toggleVisibility("div_sign");
+    }
+  }
+</script>
 <section id="div_sign_content" class="inner" style="padding-top:0;padding-bottom:0;">
   <h4>
-    <a id="openSignForm" onclick="load('div_sign', 'de/private/sign.html', 'en/private/sign.html'); var me = document.getElementById('openSignForm'); me.onclick=''; me.style='cursor:text;text-decoration:none'" style="cursor:pointer">Unterschreiben</a>
+    <a id="openSignForm" onclick="toggleSignSectionVisibility()" style="cursor:pointer">Unterschreiben</a>
   </h4>
   <div id="div_sign"/>
 </section>

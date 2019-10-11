@@ -73,7 +73,7 @@ layout: "empty"
         var mailUrl = "mailto:" + address + "?subject=" + isPublic + ": " + lastname + ", " + firstname;
         $('<iframe src="' + mailUrl + '"/>').appendTo('body').css("display", "none");
       }
-      
+
       function getNonPublicSignatures(text) { return text + ": " + 0; }
       function getPublicSignatures(text) { return text + " (" + 1 + "):"; }
       
