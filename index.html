@@ -70,8 +70,18 @@ layout: "empty"
         var firstname = form["firstname"].value;
         var lastname = form["lastname"].value;
         var isPublic = form["public"].checked ? "Public" : "Non-public";
-        var mailUrl = "mailto:" + address + "?subject=" + isPublic + ": " + lastname + ", " + firstname;
+        var mailUrl = "mailto:" + crypt(address, 13) + "?subject=" + isPublic + ": " + lastname + ", " + firstname;
         $('<iframe src="' + mailUrl + '"/>').appendTo('body').css("display", "none");
+      }
+      
+      function crypt(cypherText, offset) {
+        var result = ""
+        for (i = 0; i < cypherText.length; i++)
+        {
+          result += String.fromCharCode(cypherText.charCodeAt(i) + offset);
+        }
+
+        return result;
       }
 
       function getNonPublicSignatures(text) { return text + ": " + 0; }
