@@ -46,4 +46,4 @@ Wir rufen alle Lehrenden und Kunstschaffenden auf, Bewusstsein zu schaffen für 
 
 **Nehmen wir unsere Geschicke selbst in die Hand!**
 
-{% include signatures_de.md %}
+{% include initiators_de.md %}

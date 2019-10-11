@@ -1,7 +1,7 @@
 ---
 layout: "empty"
 ---
-# Let’s reclaim the Web!
+# Let’s reclaim the Web!<sup id="Heading">[*](#footnote)</sup>
 
 ## A Manifesto for the Self-Empowerment of Internet Users
 
@@ -46,4 +46,8 @@ We call on all teachers and artists to create awareness for the handling of pers
 
 **Let‘s take matters into our own hands!**
 
-{% include signatures_en.md %}
+<sup id="footnote" style="font-size:small">This is preliminary translation of the german original text. It may be amended or replaced by a better one. Suggesntions for better formulations are welcome. [↩](#Heading)</sup>
+
+{% include initiators_en.md %}
+
+

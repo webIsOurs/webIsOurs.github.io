@@ -1,0 +1,20 @@
+<section id="div_sign_content" class="inner" style="padding-top:0;padding-bottom:0;">
+  <h4>
+    <a id="openSignForm" onclick="load('div_sign', 'en/private/sign.html', 'en/private/sign.html'); var me = document.getElementById('openSignForm'); me.onclick=''; me.style='cursor:text;text-decoration:none'" style="cursor:pointer">Sign</a>
+  </h4>
+  <div id="div_sign"/>
+</section>
+<section id="div_signatures_content" class="inner" style="padding-top:10pt;">
+  <div id="load_signatures_button">
+    <h4>
+      <a onclick="load('div_signatures', 'signatures/signatures.html'); load('div_signatureCounts', 'en/signatureCounts.html'); toggleVisibility('toggle_signatures_button'); toggleVisibility('load_signatures_button');" style="cursor:pointer;">Signatures</a>
+    </h4>
+  </div>
+  <div id="toggle_signatures_button" style="display:none">
+    <h4>
+      <a onclick="toggleVisibility('div_signatureCounts'); toggleVisibility('div_signatures'); if (isVisible('div_signatures')) { document.getElementById('toggle_signatures_button').scrollIntoView() }" style="cursor:pointer">Signatures</a>
+    </h4>
+  </div>
+  <div id="div_signatureCounts"/>
+  <div id="div_signatures"/>
+</section>

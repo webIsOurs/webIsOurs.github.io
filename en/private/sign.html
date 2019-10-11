@@ -1,0 +1,19 @@
+<section id="sign" class="inner">
+  <div id="signForm">
+    <form name="signForm" style="padding:0">
+      <table class="borderless" style="border:none;">
+        <tr>
+          <td>First name*:</td><td><input id="firstSignatureField" type="text" name="firstname" oninput="validateSignatureData()"/></td>
+        </tr>
+        <tr>
+          <td>Last name*:</td><td><input type="text" name="lastname" oninput="validateSignatureData()"/></td>
+        </tr>
+        <tr>
+          <td colspan="2"><input type="checkbox" name="public"/>Add my signature to the public list</td>
+        </tr>
+      </table>
+    </form>
+    <button id="signatureSendButton" onclick="sendMail('signWebIsOurs@gmx.de'); toggleVisibility('signForm'); load('div_sign', 'en/private/signSuccess.html', 'en/private/signSuccess.html', 'openSignForm');" style="padding:0" disabled>Submit signature</button>
+  </div>
+  <iframe style="display:none" onload="$('#firstSignatureField').focus(); document.getElementById('sign').scrollIntoView(false);"/>
+</section>

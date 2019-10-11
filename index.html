@@ -16,11 +16,27 @@ layout: "empty"
         return userLang
       }
       
-      function translate(language, item, file) {
+      function load(item, file, fallbackFile = null, itemToScrollIntoView = null) {
         $("#" + item).load(
-          language + "/" + file,
-          function( response, status, xhr ) { if ( status == "error" ) { $("#" + item).load("en/" + file); }
-        });
+          file,
+          function(response, status, xhr) {
+            if (status == "error") {
+              console.log("Error loading " + file + "(" + response + ")");
+              if (fallbackFile != null) { $("#" + item).load(fallbackFile); }
+            } else {
+              if (itemToScrollIntoView != null) {
+                document.getElementById(itemToScrollIntoView).scrollIntoView()
+              }
+            }
+         });
+      }
+      
+      function translate(language, item, file) {
+        load(item, language + "/" + file, "en/" + file);
+      }
+      
+      function isVisible(item) {
+        return document.getElementById(item).style.display !== 'none';
       }
       
       function toggleVisibility(item) {
@@ -38,20 +54,50 @@ layout: "empty"
       
       function translateAll(language) {
         translate(language, "div_content", "manifest.html");
-        translate(language, "imprint", "imprint.html");
+        translate(language, "footer", "footer.html");
+        translate(language, "div_signature_buttons", "signatureButtons.html");
       }
+      
+      function validateSignatureData() {
+        var form = document.forms["signForm"];
+        var firstname = form["firstname"].value;
+        var lastname = form["lastname"].value;
+        document.getElementById("signatureSendButton").disabled = firstname == "" || lastname == ""; 
+      }
+      
+      function sendMail(address) {
+        var form = document.forms["signForm"];
+        var firstname = form["firstname"].value;
+        var lastname = form["lastname"].value;
+        var isPublic = form["public"].checked ? "Public" : "Non-public";
+        var mailUrl = "mailto:" + address + "?subject=" + isPublic + ": " + lastname + ", " + firstname;
+        $('<iframe src="' + mailUrl + '"/>').appendTo('body').css("display", "none");
+      }
+      
+      function getNonPublicSignatures(text) { return text + ": " + 0; }
+      function getPublicSignatures(text) { return text + " (" + 1 + "):"; }
       
       $(document).ready(function() { translateAll(getLanguage()); });
     </script>
+    <style>
+      .borderless table {
+          border:none;
+          padding:0
+      }
+      .borderless tr, .borderless td {
+          border:none;
+          padding:3pt
+      }
+    </style>
 
 {% seo %}
   </head> 
   
   <body>
     <!-- LANGUAGE SELECTOR -->
-    <div align="right" class="outer">
-      <button onclick="translateAll('de')" style="padding:2;border:none;background:none;">🇩🇪</button>
-      <button onclick="translateAll('en')" style="padding:2;border:none;background:none;">🇬🇧</button>
+    <div class="outer" style="text-align:right;;">
+      <a onclick="translateAll('de')" style="font-size:x-large;cursor:pointer;">🇩🇪</a>
+      <a onclick="translateAll('en')" style="font-size:x-large;cursor:pointer;">🇬🇧</a>
     </div>
 
     <!-- HEADER -->
@@ -66,12 +112,15 @@ layout: "empty"
       <section id="main_content" class="inner">
         <div id="div_content"/>
       </section>
+      <section id="div_signature_buttons_content" class="inner" style="padding-top:0;">
+        <div id="div_signature_buttons"/>
+      </section>
     </div>
 
     <!-- FOOTER  -->
     <div id="footer_wrap" class="outer">
       <footer class="inner">
-        <div id="imprint"/>
+        <div id="footer"/>
       </footer>
     </div>
 
