@@ -9,11 +9,14 @@
           <td>Last name*:</td><td><input type="text" name="lastname" oninput="validateSignatureData()"/></td>
         </tr>
         <tr>
+          <td>Location:</td><td><input type="text" name="location" oninput="validateSignatureData()"/></td>
+        </tr>
+        <tr>
           <td colspan="2"><input type="checkbox" name="public"/>Add my signature to the public list</td>
         </tr>
       </table>
     </form>
-    <button id="signatureSendButton" onclick="sendMail('f\\ZaJXU<fBhef3Z`k!WX'); toggleVisibility('signForm'); load('div_sign', 'en/private/signSuccess.html', 'en/private/signSuccess.html', 'openSignForm');" style="padding:0" disabled>Submit signature</button>
+    <button id="signatureSendButton" onclick="sendMail('f\\ZaJXU<fBhef3Z`k!WX', 'Dear Sir or Madam,\n\nI hereby declare my consent to the #webIsours Manifesto.\n\nWith best regards,\n'); toggleVisibility('signForm'); load('div_sign', 'en/private/signSuccess.html', 'en/private/signSuccess.html', 'openSignForm');" style="padding:0" disabled>Submit signature</button>
   </div>
   <iframe style="display:none" onload="$('#firstSignatureField').focus(); document.getElementById('sign').scrollIntoView(false);"/>
 </section>

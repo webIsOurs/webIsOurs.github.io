@@ -65,12 +65,19 @@ layout: "empty"
         document.getElementById("signatureSendButton").disabled = firstname == "" || lastname == ""; 
       }
       
-      function sendMail(address) {
+      function sendMail(address, body) {
         var form = document.forms["signForm"];
         var firstname = form["firstname"].value;
         var lastname = form["lastname"].value;
+        var location = form["location"].value;
         var isPublic = form["public"].checked ? "Public" : "Non-public";
         var mailUrl = "mailto:" + crypt(address, 13) + "?subject=" + isPublic + ": " + lastname + ", " + firstname;
+        if (0 < location.length) {
+          mailUrl = mailUrl + " (" + location + ")";
+        }
+        
+        mailUrl = mailUrl + "&body=" + body + firstname + " " + lastname;
+        mailUrl = mailUrl.replace(/ /g, "%20").replace(/\n/g, "%0D%0A");
         $('<iframe src="' + mailUrl + '"/>').appendTo('body').css("display", "none");
       }
       

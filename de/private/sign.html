@@ -9,11 +9,14 @@
           <td>Familienname*:</td><td><input type="text" name="lastname" oninput="validateSignatureData()"/></td>
         </tr>
         <tr>
+          <td>Wohnort:</td><td><input type="text" name="location" oninput="validateSignatureData()"/></td>
+        </tr>
+        <tr>
           <td colspan="2"><input type="checkbox" name="public"/>Unterschrift öffentlich listen</td>
         </tr>
       </table>
     </form>
-    <button id="signatureSendButton" onclick="sendMail('f\\ZaJXU<fBhef3Z`k!WX'); toggleVisibility('signForm'); load('div_sign', 'de/private/signSuccess.html', 'en/private/signSuccess.html', 'openSignForm');" style="padding:0" disabled>Unterschrift absenden</button>
+    <button id="signatureSendButton" onclick="sendMail('f\\ZaJXU<fBhef3Z`k!WX', 'Sehr geehrte Damen und Herren,\n\nhiermit erkläre ich meine Zustimmung für das #webIsours Manifest.\n\nMit freundlichen Grüßen,\n'); toggleVisibility('signForm'); load('div_sign', 'de/private/signSuccess.html', 'en/private/signSuccess.html', 'openSignForm');" style="padding:0" disabled>Unterschrift absenden</button>
   </div>
   <iframe style="display:none" onload="$('#firstSignatureField').focus(); document.getElementById('sign').scrollIntoView(false);"/>
 </section>
