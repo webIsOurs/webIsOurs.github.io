@@ -10,8 +10,19 @@ layout: "empty"
     <meta name="viewport" content="width=device-width,maximum-scale=2">
     <link rel="stylesheet" type="text/css" media="screen" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
     <script>
+      function getUrlParameterByName(name)
+      {
+	      var url = window.location.href;
+	      name = name.replace(/[\[\]]/g, "\\$&");
+	      var regex = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)"), results = regex.exec(url);
+	      if (!results) return null;
+	      if (!results[2]) return null;
+	      return decodeURIComponent(results[2].replace(/\+/g, " "));
+      }
+
       function getLanguage() {
-        var userLang = (navigator.language || navigator.userLanguage).substring(0, 2).toLowerCase();
+        var userLang = getUrlParameterByName("lang")
+        if (userLang == null) userLang = (navigator.language || navigator.userLanguage).substring(0, 2).toLowerCase();
         if (userLang != "de") userLang = "en";
         return userLang
       }
@@ -53,9 +64,14 @@ layout: "empty"
       }
       
       function translateAll(language) {
-        translate(language, "div_content", "manifest.html");
+        if (getUrlParameterByName("content") != "privacy") {
+          translate(language, "div_content", "manifest.html");
+          translate(language, "div_signature_buttons", "signatureButtons.html");
+        } else {
+          translate(language, "div_content", "privacy.html");
+        }
+        
         translate(language, "footer", "footer.html");
-        translate(language, "div_signature_buttons", "signatureButtons.html");
       }
       
       function validateSignatureData() {
@@ -90,9 +106,16 @@ layout: "empty"
 
         return result;
       }
-
+      
       function getNonPublicSignatures(text) { return text + ": " + 0; }
       function getPublicSignatures(text) { return text + " (" + 1 + "):"; }
+      
+      function switchToLanguange(language) {
+        var url = window.location.href;
+        var newUrl = url.replace(/lang=[a-z]+/, "lang=" + language);
+        if (newUrl == url) newUrl = url + "?lang=" + language;
+        window.open(newUrl, "_top");
+      }
       
       $(document).ready(function() { translateAll(getLanguage()); });
     </script>
@@ -113,8 +136,8 @@ layout: "empty"
   <body>
     <!-- LANGUAGE SELECTOR -->
     <div class="outer" style="text-align:right;;">
-      <a onclick="translateAll('de')" style="font-size:x-large;cursor:pointer;">🇩🇪</a>
-      <a onclick="translateAll('en')" style="font-size:x-large;cursor:pointer;">🇬🇧</a>
+      <a onclick="switchToLanguange('de')" style="font-size:x-large;cursor:pointer">🇩🇪</a>
+      <a onclick="switchToLanguange('en')" style="font-size:x-large;cursor:pointer">🇬🇧</a>
     </div>
 
     <!-- HEADER -->

@@ -1,4 +1,7 @@
-<button onclick="toggleVisibility('imprint_info'); scrollToBottom();">Impressum</button>
-<div id="imprint_info" style="display:none">
-  <img src="img/impressum.png" alt="Impressum"/>
-</div>
+<table class="borderless" style="border:none">
+  <tr>
+    <td><a onclick="toggleVisibility('imprint_info'); scrollToBottom();" style="cursor:pointer;">Impressum</a></td>
+    <td><a href="?lang=de&content=privacy">Datenschutz</a></td>
+  </tr>
+</table>
+<img id="imprint_info" style="display:none" src="img/impressum.png" alt="Imprint"/>

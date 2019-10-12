@@ -7,10 +7,6 @@ Es wurde für Sie ein Fenster mit einer neuen E-Mail mit Ihrer Unterschrift geö
 
 Sollte es beim Öffnen des E-Mail-Fensters technische Probleme geben, so können Sie auch direkt mailen an: signWebIsOurs (at) gmx.de.
 
+Sie werden nur öffentlich auf der Liste der Unterzeicher*innen gelistet, wenn der Betreff Ihrer E-Mail mit dem Schlüsselwort _Public_ beginnt. Dies ist für die automatisch generierte E-Mail der Fall, wenn Sie das entsprechende Feld angekreuzt haben. Andernfalls wird Ihre Unterzeichnung lediglich unter den nicht-öffentlichen Unterschriften mitgezählt.
+
 Da die Unterschriften vor der Veröffentlichung bzw. Eingang in die Zählung gesichtet werden, wird Ihre Unterschrift nicht sofort hier erscheinen. Dafür bitten wir um Verständnis.
-
-##### Datenschutzhinweis
-
-Ihre Unterschrift wird nur namentlich aufgelistet, wenn der Betreff Ihrer E-Mail mit _Public_ beginnt. Andernfalls geht ihre Unterschrift ohne direkte Nennung lediglich in die Anzahl der nicht-öffentlichen Unterschriften ein.
-
-Ihre E-Mail wird archiviert und ausschließich dazu verwendet zu belegen, dass Sie unterschrieben haben. Diese E-Mail wird nicht ohne Ihr explizites Einverständnis an Dritte weitergeleitet. Am 31.12.2020, oder auf Ihr Verlangen auch früher, wird diese E-Mail gelöscht.
