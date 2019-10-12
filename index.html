@@ -78,7 +78,8 @@ layout: "empty"
         var form = document.forms["signForm"];
         var firstname = form["firstname"].value;
         var lastname = form["lastname"].value;
-        document.getElementById("signatureSendButton").disabled = firstname == "" || lastname == ""; 
+        var agreeWithPrivacyPolicy = form["agreeDataProcessing"].checked
+        document.getElementById("signatureSendButton").disabled = firstname == "" || lastname == "" || !agreeWithPrivacyPolicy; 
       }
       
       function sendMail(address, body) {
