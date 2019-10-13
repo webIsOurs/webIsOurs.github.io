@@ -1,5 +1,0 @@
----
-layout: "empty"
----
-* Lutz Richter
-
