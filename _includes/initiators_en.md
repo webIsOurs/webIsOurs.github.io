@@ -1,12 +1,12 @@
 ---
 Initiators:
 
-   * Kai Bösefeldt (Software Developer)
-   * Dr. Patrick Breyer (Member of the European Parliament)
-   * Anke Domscheit-Berg (Member of the German Parliament)
-   * Saskia Esken (Member of the German Parliament)
-   * Dr. Andrea Herrmann (Professor at the FH Dortmund; Herrmann & Ehrlich)
-   * Hernâni Marques (Council Member p≡p foundation)
-   * Peter Schaar (Chairman of the European Academy for Freedom of Information and Data Protection (EAID), former German Federal Commissioner for Data Protection and Freedom of Information (2003-2013))
-   * Marina Weisband (Publicist, Artist)
-   * Peter Welchering (Journalist)
+   * [Kai Bösefeldt](https://twitter.com/kbosefeldt) (Software Developer, Initiator of the [Straightway-Projektes](https://straightway.github.io))
+   * [Dr. Patrick Breyer](https://www.patrick-breyer.de) (Member of the [European Parliament](https://www.europarl.europa.eu))
+   * [Anke Domscheit-Berg](https://mdb.anke.domscheit-berg.de) (Member of the [German Parliament](https://www.bundestag.de))
+   * [Saskia Esken](https://www.saskiaesken.de) (Member of the [German Parliament](https://www.bundestag.de))
+   * [Dr. Andrea Herrmann](https://www.fh-dortmund.de/herrmann) (Professor at the [FH Dortmund](https://www.fh-dortmund.de); [Herrmann & Ehrlich](http://www.herrmann-ehrlich.de))
+   * [Hernâni Marques](https://vecirex.net) (Council Member [p≡p foundation](https://pep.foundation))
+   * [Peter Schaar](https://peter-schaar.de) (Chairman of the [European Academy for Freedom of Information and Data Protection (EAID)](https://www.eaid-berlin.de), former [German Federal Commissioner for Data Protection and Freedom of Information](https://www.bfdi.bund.de) (2003-2013))
+   * [Marina Weisband](https://twitter.com/afelia) (Publicist, Artist)
+   * [Peter Welchering](https://www.welchering.de) (Journalist)
