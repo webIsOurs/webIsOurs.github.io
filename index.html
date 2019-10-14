@@ -115,7 +115,7 @@ layout: "empty"
         window.open(newUrl, "_top");
       }
       
-      $(document).ready(function() { translateAll(getLanguage()); });
+      $(document).ready(function() { load('div_signscripts', 'signatures/script.html'); translateAll(getLanguage()); });
     </script>
     <style>
       .borderless table {
@@ -161,6 +161,7 @@ layout: "empty"
         <div id="footer"/>
       </footer>
     </div>
-
+    
+    <div id="div_signscripts" style="display:none"/>
   </body>
 </html>
