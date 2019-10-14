@@ -7,6 +7,7 @@ Initiators:
    * [Anke Domscheit-Berg](https://mdb.anke.domscheit-berg.de) (Member of the [German Parliament](https://www.bundestag.de))
    * [Saskia Esken](https://www.saskiaesken.de) (Member of the [German Parliament](https://www.bundestag.de))
    * [Adrienne Fichter](https://www.republik.ch/~adriennefichter) (Journalist)
+   * [Hannes Gassert](https://www.gassert.ch) (Entrepreneur)
    * [lic. iur. Viktor Györffy](https://www.psg-law.ch/partner/lic._iur._viktor_gyoerffy.html) (Lawyer)
    * [Michael Hausding](https://twitter.com/mhausding) (Executive Member of the [Internet Society Switzerland](https://www.isoc.ch))
    * [Dr. Andrea Herrmann](https://www.fh-dortmund.de/herrmann) (Professor at the [FH Dortmund](https://www.fh-dortmund.de); [Herrmann & Ehrlich](http://www.herrmann-ehrlich.de))
