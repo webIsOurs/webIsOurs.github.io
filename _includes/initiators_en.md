@@ -11,7 +11,7 @@ Initiators:
    * [Michael Hausding](https://twitter.com/mhausding) (Executive Member of the [Internet Society Switzerland](https://www.isoc.ch))
    * [Dr. Andrea Herrmann](https://www.fh-dortmund.de/herrmann) (Professor at the [FH Dortmund](https://www.fh-dortmund.de); [Herrmann & Ehrlich](http://www.herrmann-ehrlich.de))
    * [Hernâni Marques](https://vecirex.net) (Council Member [p≡p foundation](https://pep.foundation))
-   * [Piratenpartei CH](https://www.piratenpartei.ch/)
+   * [Pirate Party CH](https://www.piratenpartei.ch/)
    * [Peter Schaar](https://peter-schaar.de) (Chairman of the [European Academy for Freedom of Information and Data Protection (EAID)](https://www.eaid-berlin.de), former [German Federal Commissioner for Data Protection and Freedom of Information](https://www.bfdi.bund.de) (2003-2013))
    * [#TEAMHUMAN](https://teamhuman.ch)
    * [Marina Weisband](https://twitter.com/afelia) (Publicist, Artist)
