@@ -30,7 +30,7 @@ We, the signatories of this manifesto, are firmly convinced that the Internet ca
    
    * Guarantees the privacy and rights of users by technical means.
    * Does not require the users to make any compromise in terms of performance and function.
-   * Is developed under an approved open source license.
+   * Is developed under an approved free and open source license.
    * Is solely run decentrally and collectively by the users.
    * Guarantees secure data protection for content and metadata.
    * Is very easy to install and to use.

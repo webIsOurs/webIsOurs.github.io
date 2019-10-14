@@ -30,7 +30,7 @@ Dazu braucht es vertrauenswürdige Kommunikationstechnologie, welche:
 
    * Die Privatsphäre und die Rechte der Nutzer\*innen auf technischem Wege definitiv sicherstellt.
    * In Leistung und Funktion den Nutzer\*nnen keine Kompromisse abverlangt.
-   * Unter einer anerkannten Open Source Lizenz entwickelt wird.
+   * Unter einer anerkannten Free and Open Source Lizenz entwickelt wird.
    * Dezentral, kollektiv und ausschließlich von den Nutzer\*innen selbst betrieben wird.
    * Sicheren Datenschutz bei Inhalts- und Metadaten gewährleistet.
    * Sehr einfach zu installieren und zu bedienen ist.
