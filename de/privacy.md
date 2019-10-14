@@ -19,14 +19,14 @@ Datenschutzordnung der Initiative #webIsOurs – Stand: 12. Oktober 2019
 3. Im Zusammenhang mit der Unterzeichnung werden regelmäßig die folgenden Daten verarbeitet:
 
     * Name, Vorname
-    * Wohnort
     * E-Mail-Adresse
+    * Zusatzangabe (Freitext)
 
     Diese Daten werden nicht ohne Einwilligung der betroffenen Mitglieder an Dritte weitergegeben. Sie werden spätestens am 31.12.2020 gelöscht.
 
 4. Für die Bereitstellung des Webangebots und die Archivierung der E-Mails können für diese Zwecke erforderliche personenbezogene Daten über Serviceanbieter (E-Mail-Anbieter, Webhoster) erhoben und/oder gespeichert werden. Soweit Daten für die #webIsOurs Initiative von einem Serviceanbieter verarbeitet werden, stellt dieser sicher, dass die Daten angemessen geschützt bleiben und nicht zweckentfremdet werden.
 
-5. Auf die Daten der Unterzeichner dürfen nur die Initiatoren der #webIsOurs Initiative sowie der mit der Abwicklung betraute Serviceanbieter zugreifen. Dritten kann Zugriff nach ausdrpcklicher Erlaubnis gewährt werden. Nur Unterzeichner die ihre Unterzeihnungs-E-Mail im Betreff mit dem Schlüsselwort _Public_ beginnen, dürfen mit Familienname, Vorname und Wohnort öffentlich auf der Website der #webIsOurs Initiative als Unterzeichner genannt werden.
+5. Auf die Daten der Unterzeichner dürfen nur die Initiatoren der #webIsOurs Initiative sowie der mit der Abwicklung betraute Serviceanbieter zugreifen. Dritten kann Zugriff nach ausdrpcklicher Erlaubnis gewährt werden. Nur Unterzeichner die ihre Unterzeihnungs-E-Mail im Betreff mit dem Schlüsselwort _Public_ beginnen, dürfen mit Familienname, Vorname und Zusatzangabe öffentlich auf der Website der #webIsOurs Initiative als Unterzeichner genannt werden.
 
 6. Die in Ziff. 1 genannten Personen haben das Recht, Auskunft über die zu ihrer Person gespeicherten Daten zu verlangen (Art. 15 DS-GVO). Sie können außerdem die Berichtigung, Löschung oder Einschränkung der Verarbeitung dieser Daten verlangen (Art. 15 – 18 DS-GVO) und der Datenverarbeitung aus Gründen, die sich aus ihrer besonderen Situation ergeben, nach Art. 21 DS-GVO widersprechen. Des weiteren können sie sich beim Landesbeauftragten für Datenschutz und Informationsfreiheit Mecklenburg-Vorpommern, Schloss Schwerin, Lennéstraße 1, 19053 Schwerin, über die Verarbeitung ihrer Daten durch die #webIsOurs Initiative beschweren, wenn sie der Auffassung sind, dass diese gegen datenschutzrechtliche Bestimmungen verstößt.
 

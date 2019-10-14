@@ -19,14 +19,14 @@ Privacy Policy of the Initiative #webIsOurs - Status: October 12th 2019
 3. The following data will be processed regularly in connection with the signing:
 
     * Surname, first name
-    * Place of residence
     * E-mail address
+    * Additional information (free text)
 
     This data will not be passed on to third parties without the consent of the members concerned. They will be deleted by 12-31-2020 at the latest.
 
 4. Personal data required for the provision of the website and the archiving of e-mails may be collected and/or stored via service providers (e-mail providers, web hosts). If data for the #webIsOurs initiative is processed by a service provider, this ensures that the data remains adequately protected and is not misused.
 
-5. Only the initiators of the #webIsOurs initiative as well as the service provider entrusted with the processing may access the data of the signatories. Third parties may only be granted access after explicit consent. Only signatories who begin their signature e-mail in the subject line with the keyword _Public_ may be publicly named as signatories on the website of the #webIsOurs Initiative with surname, first name and place of residence.
+5. Only the initiators of the #webIsOurs initiative as well as the service provider entrusted with the processing may access the data of the signatories. Third parties may only be granted access after explicit consent. Only signatories who begin their signature e-mail in the subject line with the keyword _Public_ may be publicly named as signatories on the website of the #webIsOurs Initiative with surname, first name and Additional information (free text).
 
 6. The persons mentioned in point 1 have the right to request information about the data stored about their person (art. 15 GDPR). They may also request the rectification, cancellation or limitation of the processing of these data (Art. 15 - 18 GDPR) and object to the processing of these data for reasons arising from their particular situation in accordance with Art. 21 GDPR. Furthermore, they can complain to the State Commissioner for Privacy and Freedom of Information Mecklenburg-Vorpommern, Schloss Schwerin, Lennéstraße 1, 19053 Schwerin, or at their local data protection authority, about the processing of their data by the #webIsOurs Initiative, if they are of the opinion that this violates data protection provisions.
 

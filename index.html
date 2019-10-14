@@ -86,11 +86,11 @@ layout: "empty"
         var form = document.forms["signForm"];
         var firstname = form["firstname"].value;
         var lastname = form["lastname"].value;
-        var location = form["location"].value;
+        var additional = form["additional"].value;
         var isPublic = form["public"].checked ? "Public" : "Non-public";
         var mailUrl = "mailto:" + crypt(address, 13) + "?subject=" + isPublic + ": " + lastname + ", " + firstname;
-        if (0 < location.length) {
-          mailUrl = mailUrl + " (" + location + ")";
+        if (0 < additional.length) {
+          mailUrl = mailUrl + " (" + additional + ")";
         }
         
         mailUrl = mailUrl + "&body=" + body + firstname + " " + lastname;
