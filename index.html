@@ -108,9 +108,6 @@ layout: "empty"
         return result;
       }
       
-      function getNonPublicSignatures(text) { return text + ": " + 0; }
-      function getPublicSignatures(text) { return text + " (" + 1 + "):"; }
-      
       function switchToLanguange(language) {
         var url = window.location.href;
         var newUrl = url.replace(/lang=[a-z]+/, "lang=" + language);

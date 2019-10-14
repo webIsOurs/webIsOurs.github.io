@@ -11,6 +11,8 @@
     }
   }
 </script>
+<iframe style="display:none" onload="load('div_signscripts', 'signatures/script.html');"/>
+<div id="div_signscripts"/>
 <section id="div_sign_content" class="inner" style="padding-top:0;padding-bottom:0;">
   <h4>
     <a id="openSignForm" onclick="toggleSignSectionVisibility()" style="cursor:pointer">Unterschreiben</a>
@@ -20,7 +22,7 @@
 <section id="div_signatures_content" class="inner" style="padding-top:10pt;">
   <div id="load_signatures_button">
     <h4>
-      <a onclick="load('div_signatures', 'signatures/signatures.html'); load('div_signatureCounts', 'de/signatureCounts.html'); toggleVisibility('toggle_signatures_button'); toggleVisibility('load_signatures_button');" style="cursor:pointer;">Unterschriften</a>
+      <a onclick="load('div_signatureCounts', 'de/signatureCounts.html'); load('div_signatures', 'signatures/signatures.html'); toggleVisibility('toggle_signatures_button'); toggleVisibility('load_signatures_button');" style="cursor:pointer;">Unterschriften</a>
     </h4>
   </div>
   <div id="toggle_signatures_button" style="display:none">
