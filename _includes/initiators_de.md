@@ -14,5 +14,5 @@ Initiatoren:
    * [Piratenpartei CH](https://www.piratenpartei.ch/)
    * [Peter Schaar](https://peter-schaar.de) (Vorsitzender der [Europäischen Akademie für Informationsfreiheit und Datenschutz (EAID)](https://www.eaid-berlin.de), Berlin; [Bundesbeauftragter für den Datenschutz und die Informationsfreiheit](https://www.bfdi.bund.de) a.D. (2003-2013))
    * [#TEAMHUMAN](https://teamhuman.ch)
-   * [Marina Weisband](https://twitter.com/afelia) (Publizistin, Künstlerin)
+   * [Marina Weisband](https://aula-blog.website/team/marina-weisband) (Publizistin, Künstlerin)
    * [Peter Welchering](https://www.welchering.de) (Journalist)

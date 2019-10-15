@@ -14,5 +14,5 @@ Initiators:
    * [Pirate Party CH](https://www.piratenpartei.ch/)
    * [Peter Schaar](https://peter-schaar.de) (Chairman of the [European Academy for Freedom of Information and Data Protection (EAID)](https://www.eaid-berlin.de), former [German Federal Commissioner for Data Protection and Freedom of Information](https://www.bfdi.bund.de) (2003-2013))
    * [#TEAMHUMAN](https://teamhuman.ch)
-   * [Marina Weisband](https://twitter.com/afelia) (Publicist, Artist)
+   * [Marina Weisband](https://aula-blog.website/team/marina-weisband) (Publicist, Artist)
    * [Peter Welchering](https://www.welchering.de) (Journalist)
