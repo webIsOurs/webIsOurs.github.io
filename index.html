@@ -82,6 +82,10 @@ layout: "empty"
         document.getElementById("signatureSendButton").disabled = firstname == "" || lastname == "" || !agreeWithPrivacyPolicy; 
       }
       
+      function sendFailure() {
+        alert("Send failed");
+      }
+      
       function sendMail(address, body) {
         var form = document.forms["signForm"];
         var firstname = form["firstname"].value;
@@ -162,5 +166,6 @@ layout: "empty"
         <div id="footer"/>
       </footer>
     </div>   
+    <div id="mail"/>
   </body>
 </html>
