@@ -3,14 +3,14 @@ layout: "empty"
 ---
 # Datenschutzordnung
 
-Datenschutzordnung der Initiative #webIsOurs – Stand: 12. Oktober 2019
+Datenschutzordnung der Initiative #webIsOurs – Stand: 20. Oktober 2019
 
 1. Die Initiative #webIsOurs, vertreten durch ihren Initiator Kai Bösefeldt (nähere Angaben: Siehe Impressum), informiert durch diese Datenschutzordnung nach Art. 13 der Europäischen Datenschutz-Grundverordnung (DS-GVO) darüber, dass sie personenbezogene Daten über folgende Personen bei diesen erhebt und verarbeitet:
 
-    * Unterzeichner der Initiative Initiative #webIsOurs,
-    * Nutzerinnen und Nutzer des Internetseite webIsOurs.github.io.
+    * Unterzeichner der Initiative #webIsOurs,
+    * Nutzerinnen und Nutzer der Internetseite der Initiative #webIsOurs.
 
-2. Diese Daten werden ausschließlich dazu verwendet, die Unterschriften zu belegen und die Unterstützer über die Website webIsOurs.github.io über den Fortgang der Kampagne zu informieren.
+2. Diese Daten werden ausschließlich dazu verwendet, die Unterschriften zu belegen und die Unterstützer über die Website der Initiative #webIsOurs über den Fortgang der Kampagne zu informieren.
 
     Zu anderen, nicht mit dem Erhebungszweck vereinbarenden Zwecken, werden die Daten nicht verarbeitet.
 
@@ -30,7 +30,7 @@ Datenschutzordnung der Initiative #webIsOurs – Stand: 12. Oktober 2019
 
 6. Die in Ziff. 1 genannten Personen haben das Recht, Auskunft über die zu ihrer Person gespeicherten Daten zu verlangen (Art. 15 DS-GVO). Sie können außerdem die Berichtigung, Löschung oder Einschränkung der Verarbeitung dieser Daten verlangen (Art. 15 – 18 DS-GVO) und der Datenverarbeitung aus Gründen, die sich aus ihrer besonderen Situation ergeben, nach Art. 21 DS-GVO widersprechen. Des weiteren können sie sich beim Landesbeauftragten für Datenschutz und Informationsfreiheit Mecklenburg-Vorpommern, Schloss Schwerin, Lennéstraße 1, 19053 Schwerin, über die Verarbeitung ihrer Daten durch die #webIsOurs Initiative beschweren, wenn sie der Auffassung sind, dass diese gegen datenschutzrechtliche Bestimmungen verstößt.
 
-7. Bei jedem Zugriff eines Nutzers oder einer Nutzerin auf das Internet-Angebot der #webIsOurs Initiative und bei jedem Abruf einer Datei können technische Informationen von Besuchern der Website gesammelt werden, einschließlich der IP-Adressen, um die Sicherheit und Integrität der Website und des Dienstes zu gewährleisten. Näheres kann der [Datenschutzerklärung des Webhosters](https://help.github.com/en/articles/github-privacy-statement) entnommen werden.
+7. Bei jedem Zugriff eines Nutzers oder einer Nutzerin auf das Internet-Angebot der #webIsOurs Initiative und bei jedem Abruf einer Datei können technische Informationen von Besuchern der Website gesammelt werden, einschließlich der IP-Adressen, um die Sicherheit und Integrität der Website und des Dienstes zu gewährleisten. Näheres kann der Datenschutzerklärung des Webhosters in der Fußzeile entnommen werden.
 
 8. Rechtsgrundlage für die Verarbeitung der Daten der Unterzeichner ist deren explizites Einverständnis gemäß Art. 6 Abs. 1 lit. a DS-GVO. Die Daten der Personen, die das Internet-Angebot der #webIsOurs Initiative nutzen, werden auf der Grundlage von Art. 6 Abs. 1 lit. f) DS-GVO verarbeitet. Das berechtigte Interesse an der Verarbeitung gem. Art. 6 Abs. 1 lit. f) besteht in der Erbringung des Internet-Angebots und der Information der Öffentlichkeit über die Initiative.
 

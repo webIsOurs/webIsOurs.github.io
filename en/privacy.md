@@ -3,14 +3,14 @@ layout: "empty"
 ---
 # Privacy Policy
 
-Privacy Policy of the Initiative #webIsOurs - Status: October 12th 2019
+Privacy Policy of the Initiative #webIsOurs - Status: October 20th 2019
 
 1. The initiative #webIsOurs, represented by its initiator Kai Bösefeldt (more details: see imprint), informs by this privacy policy according to art. 13 of the European General Data Protection Regulation (GDPR) that it collects and processes personal data about the following persons:
 
     * Signatory of the initiative #webIsOurs,
-    * Users of the website webIsOurs.github.io.
+    * Users of the website of the initiative #webIsOurs
 
-2. This data will be used solely to verify signatures and to inform supporters of the progress of the campaign via the webIsOurs.github.io website.
+2. This data will be used solely to verify signatures and to inform supporters of the progress of the campaign via the #webIsOurs website.
 
     The data will not be processed for other purposes not compatible with the purpose of the survey.
 
@@ -30,7 +30,7 @@ Privacy Policy of the Initiative #webIsOurs - Status: October 12th 2019
 
 6. The persons mentioned in point 1 have the right to request information about the data stored about their person (art. 15 GDPR). They may also request the rectification, cancellation or limitation of the processing of these data (Art. 15 - 18 GDPR) and object to the processing of these data for reasons arising from their particular situation in accordance with Art. 21 GDPR. Furthermore, they can complain to the State Commissioner for Privacy and Freedom of Information Mecklenburg-Vorpommern, Schloss Schwerin, Lennéstraße 1, 19053 Schwerin, or at their local data protection authority, about the processing of their data by the #webIsOurs Initiative, if they are of the opinion that this violates data protection provisions.
 
-7. Each time a user accesses the #webIsOurs Initiative website and each time a file is retrieved, technical information may be collected from visitors to the website, including IP addresses, in order to ensure the security and integrity of the website and the service. See the [Web Hosting Privacy Statement](https://help.github.com/en/articles/github-privacy-statement) for more information.
+7. Each time a user accesses the #webIsOurs Initiative website and each time a file is retrieved, technical information may be collected from visitors to the website, including IP addresses, in order to ensure the security and integrity of the website and the service. See the Web Hosting Privacy Statement at the footer for more information.
 
 8. The legal basis for the processing of the signatories' data is their explicit consent pursuant to art. 6 para. 1 lit. a GDPR. The data of the persons who use the website of the #webIsOurs Initiative will be processed on the basis of Art. 6 para. 1 lit. f) GDPR. The legitimate interest in the processing pursuant to Art. 6 para. 1 lit. f) consists in the provision of the website and the information of the public about the initiative.
 
